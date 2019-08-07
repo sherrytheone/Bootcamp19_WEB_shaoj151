@@ -1,0 +1,45 @@
+.title{
+	margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+    text-align: center;
+    font-size:70px;
+    font-weight: bolder;
+    font-family: Times;
+    transition-duration: .3s;
+    color: black;
+    transition-timing-function: ease-in-out;
+	}
+
+.title:hover{
+	font-size: 90px;
+}
+
+
+.nav{
+	color: hotpink;
+	text-align: center;
+	font-size:24px;
+	font-weight:bold;
+	word-spacing: 70px;
+	font-family: Futura;
+	margin-block-start: 0.1em;
+    margin-block-end: 2em;
+	/*font-family: sans-serif;*/
+	}
+
+
+a{
+	color: hotpink;
+	text-decoration: none;
+}
+
+a:hover{
+	color: yellow;
+}
+
+.para{
+	font-size: 20px;
+	margin-inline-end: 130px;
+	width: 450px;
+	}
+
