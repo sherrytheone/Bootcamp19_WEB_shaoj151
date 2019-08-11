@@ -1,0 +1,49 @@
+.title{
+	font-family: futura;
+	font-size: 30px;
+	margin-left: 50px;
+}
+
+.subtitle{
+	font-family: futura;
+	font-weight: regular;
+	font-size: 30px;
+	margin-left: 50px;
+	transition-timing-function: ease-in-out;
+	transition-duration: .3s;
+}
+
+.subtitle:hover{
+	font-size: 50px;
+}
+.imgL{
+	width: 45%
+	display: inline-block;
+
+}
+.imgR{
+	display: inline-block;
+	float: right;
+}
+
+.imgR img{
+	margin-left: 450px;
+	width: 600px;
+	transition-timing-function: ease-in-out;
+	transition-duration: .3s
+}
+
+.imgR img:hover{
+	transform: skew(20deg);
+}
+
+.imgL img{
+	width: 40%;
+}
+
+.imgL img:hover{
+	transform: translate(200px,200px);
+}
+#special: hover{
+	transform: skew(-20deg;);
+}

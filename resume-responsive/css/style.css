@@ -1,0 +1,43 @@
+.headline{
+	margin:5%;
+	font-family: Helvetica;
+	font-weight: bold;
+	color: hotpink;
+}
+
+.background{
+	font-size:45px;
+	width: 30%;
+	display: inline-block;
+	float: right;
+	margin-right: 5%
+}
+
+.pic{
+	margin-left: 5%;
+	width: 55%;
+	display: inline-block;
+	float: left;
+}
+.pic img{
+	width: 90%;
+}
+
+@media screen and (min-width: 500px){
+	body{
+		background-color: olive;
+	}
+}
+
+@media screen and (min-width: 1050px){
+	body{
+	background-color: white;
+}
+}
+
+@media screen and (max-device-width:500px) and (orientation: portrait){
+	body{
+		background-color: yellow;
+	}
+
+}
